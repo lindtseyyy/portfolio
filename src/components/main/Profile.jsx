@@ -13,7 +13,7 @@ const Profile = () => {
       <div>
         <div className="mb-2">
           <img
-            src="picture.jpeg"
+            src="picture.jpg"
             className="h-36 min-w-36 w-36 rounded-full object-cover"
           />
         </div>

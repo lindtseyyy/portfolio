@@ -136,8 +136,15 @@ const About = () => {
           addtlClass={"min-w-24 w-24"}
           logo="oraclecloud.png"
           title="OCI 2025 Certified AI Foundations Associate"
-          description="Oracle"
-          duration="July 18, 2025 - Present"
+          description="Oracle (1Z0-1122-25)"
+          duration="July 18, 2025 - July 18, 2027"
+        />
+        <Certification
+          addtlClass={"min-w-24 w-24"}
+          logo="oraclecloud.png"
+          title="OCI 2025 Certified AI Data Science Professional"
+          description="Oracle (1Z0-1110-25)"
+          duration="August 28, 2025 - August 28, 2027"
         />
       </div>
 
