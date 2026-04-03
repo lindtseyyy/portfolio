@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaFacebook, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -28,19 +28,32 @@ const Profile = () => {
         </p>
       </div>
       <div className="flex flex-row flex-wrap items-center gap-x-5 gap-y-4">
-        <div className="border rounded-md px-3 py-1 flex gap-x-2 items-center cursor-pointer">
-          <FaFileDownload /> <p>Resume</p>
-        </div>
+       <a href="src/assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
+  <div className="border rounded-md px-3 py-1 flex gap-x-2 items-center cursor-pointer">
+    <FaFileDownload /> <p>Resume</p>
+  </div>
+</a>
         <div className="flex flex-row gap-x-2">
-          <FaGithub color="#e5e5e5" size={24} className="cursor-pointer" />
-          <MdEmail color="#e5e5e5" size={24} className="cursor-pointer" />
-          <FaLinkedin color="#e5e5e5" size={24} className="cursor-pointer" />
-          <FaInstagramSquare
+          <a href="https://github.com/lindtseyyy" target="_blank" rel="noopener noreferrer">
+  <FaGithub color="#e5e5e5" size={24} className="cursor-pointer" />
+</a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=giousalvador@gmail.com" target="_blank" rel="noopener noreferrer">
+  <MdEmail color="#e5e5e5" size={24} className="cursor-pointer" />
+</a>
+<a href="https://www.facebook.com/rhemgiou" target="_blank" rel="noopener noreferrer">
+  <FaFacebook color="#e5e5e5" size={24} className="cursor-pointer" />
+</a>
+<a href="https://www.linkedin.com/in/rhemsalvador" target="_blank" rel="noopener noreferrer">
+  <FaLinkedin color="#e5e5e5" size={24} className="cursor-pointer" />
+</a>
+<a href="https://www.instagram.com/_rhemmm/" target="_blank" rel="noopener noreferrer">
+  <FaInstagramSquare
             color="#e5e5e5"
             size={24}
             className="cursor-pointer"
           />
-          <FaXTwitter color="#e5e5e5" size={24} className="cursor-pointer" />
+</a>
+          
         </div>
       </div>
     </div>

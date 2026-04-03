@@ -57,6 +57,8 @@ const About = () => {
               <Skill skillType="framework" skillTitle="React Native" />
               <Skill skillType="framework" skillTitle="Spring Boot" />
               <Skill skillType="framework" skillTitle="Flask" />
+              <Skill skillType="framework" skillTitle="Flutter" />
+              <Skill skillType="framework" skillTitle="Tailwind CSS" />
             </div>
           </div>
 
@@ -80,9 +82,12 @@ const About = () => {
 
           {/**Practices */}
           <div className="flex flex-col gap-y-2">
-            <h2 className="font-semibold">Practices</h2>
+            <h2 className="font-semibold">Practices & Tools</h2>
             <div className="flex flex-wrap gap-x-2 gap-y-2">
               <Skill skillType="practice" skillTitle="Git" />
+              <Skill skillType="practice" skillTitle="Docker" />
+              <Skill skillType="practice" skillTitle="Linux" />
+              <Skill skillType="practice" skillTitle="Visual Studio Code" />
             </div>
           </div>
         </div>
@@ -128,17 +133,11 @@ const About = () => {
         <Certification
           addtlClass={"min-w-24 w-24"}
           logo="topcitlogo.png"
-          title="Level 3 (Competent)"
+          title="Level 4 (Proficient) - 799 Points"
           description="TOPCIT (Test of Practical Competency in IT)"
-          duration="July 10, 2025 - Present"
+          duration="December 15, 2025 - Present"
         />
-        <Certification
-          addtlClass={"min-w-24 w-24"}
-          logo="oraclecloud.png"
-          title="OCI 2025 Certified AI Foundations Associate"
-          description="Oracle (1Z0-1122-25)"
-          duration="July 18, 2025 - July 18, 2027"
-        />
+     
         <Certification
           addtlClass={"min-w-24 w-24"}
           logo="oraclecloud.png"
@@ -146,19 +145,16 @@ const About = () => {
           description="Oracle (1Z0-1110-25)"
           duration="August 28, 2025 - August 28, 2027"
         />
+           <Certification
+          addtlClass={"min-w-24 w-24"}
+          logo="oraclecloud.png"
+          title="OCI 2025 Certified AI Foundations Associate"
+          description="Oracle (1Z0-1122-25)"
+          duration="July 18, 2025 - July 18, 2027"
+        />
       </div>
 
-      {/**Projects */}
-      {/* <div className="flex flex-col gap-y-4">
-        <h1 className="text-3xl font-bold mb-4">Projects</h1>
-        <Project
-          title="HomeGame: Home Poker Analytics Manager"
-          descriptions={[
-            "Developed a feature-rich mobile application for managing and analyzing home poker games using React Native and Supabase",
-          ]}
-          techstack={["Supabase", "React Native"]}
-        />
-      </div> */}
+
     </div>
   );
 };
