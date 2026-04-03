@@ -19,7 +19,7 @@ const Profile = () => {
         </div>
         <p className="text-4xl font-bold mb-2">Rhem Giou Salvador</p>
         <p className="text-neutral-400 text-xl mb-4 font-semibold">
-          Full Stack Web Developer
+          Full Stack Web Developer | AI Model Training
         </p>
         <p className="text-neutral-500 mb-4 ">📍 Rizal, Philippines 🇵🇭</p>
         <p className="text-neutral-300 text-sm mb-4 flex-wrap">
