@@ -28,7 +28,7 @@ const Profile = () => {
         </p>
       </div>
       <div className="flex flex-row flex-wrap items-center gap-x-5 gap-y-4">
-       <a href="src/assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
+       <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
   <div className="border rounded-md px-3 py-1 flex gap-x-2 items-center cursor-pointer">
     <FaFileDownload /> <p>Resume</p>
   </div>
