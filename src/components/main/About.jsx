@@ -154,6 +154,19 @@ const About = () => {
         />
       </div>
 
+            {/**Projects */}
+      <div className="flex flex-col gap-y-4">
+        <h1 className="text-3xl font-bold mb-4">Projects</h1>
+        <Project
+        imgsrc={"fake_news_detector_logo.png"}
+        viewCodeLink={"https://github.com/lindtseyyy/fake-news-detector-gemini-grounding.git"}
+          title="Fake News Detector"
+          descriptions={[
+            "Built a Vertex AI–powered web app that verifies news by comparing claims with real-time sources and providing confidence scores with supporting evidence, going beyond typical binary classification.",
+          ]}
+          techstack={["React JS", "Flask", "Vertex AI", "Docker", 'Git']}
+        />
+      </div>
 
     </div>
   );
